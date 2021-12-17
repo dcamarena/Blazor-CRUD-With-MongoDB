@@ -2954,11 +2954,12 @@
       ]
     },
     "Microsoft.Win32.Registry/4.0.0": {
-      "sha512": "q+eLtROUAQ3OxYA5mpQrgyFgzLQxIyrfT2eLpYX5IEPlHmIio2nh4F5bgOaQoGOV865kFKZZso9Oq9RlazvXtg==",
+      "sha512": "mYUxH/YY9PwvuWY93/qsovFHAh+Lu2CNxNHWxB/x0dnpaEy6oIy/9d7R2J6dFaLZ7jhE7emLjn7A8kSzsP1A+Q==",
       "type": "package",
       "path": "microsoft.win32.registry/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/Microsoft.Win32.Registry.dll",
@@ -4010,11 +4011,12 @@
       ]
     },
     "System.Diagnostics.Process/4.1.0": {
-      "sha512": "mpVZ5bnlSs3tTeJ6jYyDJEIa6tavhAd88lxq1zbYhkkCu0Pno2+gHXcvZcoygq2d8JxW3gojXqNJMTAshduqZA==",
+      "sha512": "4dlFhzwmI3hl32P+8c9hnytYtV7Xldhsokm5i7Fvv5PmTS68TQCfsuJrREIyF9N1B8zlsSomp7AVrXLe45kKFQ==",
       "type": "package",
       "path": "system.diagnostics.process/4.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4066,7 +4068,7 @@
       ]
     },
     "System.Diagnostics.TextWriterTraceListener/4.0.0": {
-      "sha512": "w36Dr8yKy8xP150qPANe7Td+/zOI3G62ImRcHDIEW+oUXUuTKZHd4DHmqRx5+x8RXd85v3tXd1uhNTfsr+yxjA==",
+      "sha512": "oRsXCz76GDDMrwjMjH6keR9erFIofhGaIMc2d4NykI4rdBEuUP5ZswYA30LGPdyCK7DV4bMBEJL3nJFyAJoS/g==",
       "type": "package",
       "path": "system.diagnostics.textwritertracelistener/4.0.0",
       "files": [
@@ -4161,11 +4163,12 @@
       ]
     },
     "System.Diagnostics.TraceSource/4.0.0": {
-      "sha512": "6WVCczFZKXwpWpzd/iJkYnsmWTSFFiU24Xx/YdHXBcu+nFI/ehTgeqdJQFbtRPzbrO3KtRNjvkhtj4t5/WwWsA==",
+      "sha512": "bGUeY5wiCHYSWbYZS3QjbaQ1hNoJ1RQBQMB3E0Cgh6AH//4rXfXIOHKIW46HDOsTEDoNfvFNDXphL5W5B/XMwQ==",
       "type": "package",
       "path": "system.diagnostics.tracesource/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4290,7 +4293,7 @@
       ]
     },
     "System.Dynamic.Runtime/4.0.11": {
-      "sha512": "laFmL0htdiv3S0fR+c15BEMibVm8j8RvYzytSWToBIXQuYG7QDIC0DoHjgxnPcxKCzy3OF18B2XB30KyFRGYQg==",
+      "sha512": "db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
       "type": "package",
       "path": "system.dynamic.runtime/4.0.11",
       "files": [
@@ -4921,7 +4924,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "vtIliHE88kldDh75oyOJcUnGCCndQ7CCqgmDlbo2Y+IO9RglcRcmkARJ+IJDoAdCKjYbSOjjRSoTU4v0J1m8yg==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -7483,24 +7486,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ankit\\.nuget\\packages\\": {},
+    "C:\\Users\\danie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj",
+      "projectUniqueName": "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj",
       "projectName": "BlazorWithMongo.Client",
-      "projectPath": "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj",
-      "packagesPath": "C:\\Users\\ankit\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\obj\\",
+      "projectPath": "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj",
+      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ankit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7511,9 +7520,10 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj": {
-              "projectPath": "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj"
+            "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj": {
+              "projectPath": "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj"
             }
           }
         }
@@ -7526,6 +7536,7 @@
     },
     "frameworks": {
       "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
         "dependencies": {
           "Microsoft.AspNetCore.Blazor": {
             "target": "Package",
@@ -7556,18 +7567,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "NETStandard.Library.Ref",
-            "version": "[2.1.0, 2.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "NETStandard.Library": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

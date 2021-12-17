@@ -51,7 +51,7 @@ namespace BlazorWithMongo.Server.Controllers
         }
 
         [HttpGet("GetCities")]
-        public List<Cities> GetCities()
+        public List<City> GetCities()
         {
             return objemployee.GetCityData();
         }

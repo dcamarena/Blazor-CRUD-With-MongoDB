@@ -13,7 +13,7 @@ namespace BlazorWithMongo.Server.Interface
         public Employee GetEmployeeData(string id);
         public void UpdateEmployee(Employee employee);
         public void DeleteEmployee(string id);
-        public List<Cities> GetCityData();
+        public List<City> GetCityData();
 
     }
 }

@@ -18,8 +18,12 @@ namespace BlazorWithMongo.Server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
             services.AddTransient<IEmployee, EmployeeDataAccessLayer>();
-            services.AddSingleton(options => options.GetRequiredService<IOptions<EmployeeDBContext>>().Value);
+            services.AddTransient<IDish, DishDataAccessLayer>();
+
+            services.AddSingleton(options => options.GetRequiredService<IOptions<RestaurantDBContext>>().Value);
+
             services.AddResponseCompression(opts =>
             {
                 opts.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(

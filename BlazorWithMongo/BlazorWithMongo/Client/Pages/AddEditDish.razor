@@ -1,0 +1,30 @@
+﻿@page "/dish/add"
+@page "/dish/edit/{dishID}"
+@inherits AddEditDishModel
+
+<h1>@Title Dish</h1>
+<hr />
+
+<EditForm Model="@dish" OnValidSubmit="SaveDish">
+    <DataAnnotationsValidator />
+    <div class="form-group row">
+        <label class="control-label col-md-12">Name</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="dish.Name" />
+        </div>
+        <ValidationMessage For="@(() => dish.Name)" />
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12">Price</label>
+        <div class="col-md-4">
+            <input class="form-control" @bind="dish.Price" />
+        </div>
+        <ValidationMessage For="@(() => dish.Price)" />
+    </div>
+  
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button class="btn btn-light" @onclick="Cancel">Cancel</button>
+    </div>
+</EditForm>

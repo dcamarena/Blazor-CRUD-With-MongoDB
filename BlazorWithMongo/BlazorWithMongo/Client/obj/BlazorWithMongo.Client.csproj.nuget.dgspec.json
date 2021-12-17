@@ -1,24 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj": {}
+    "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj": {
+    "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj",
         "projectName": "BlazorWithMongo.Client",
-        "projectPath": "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj",
-        "packagesPath": "C:\\Users\\ankit\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\obj\\",
+        "projectPath": "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\BlazorWithMongo.Client.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ankit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -29,9 +33,10 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj": {
-                "projectPath": "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj"
+              "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj": {
+                "projectPath": "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj"
               }
             }
           }
@@ -44,6 +49,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.AspNetCore.Blazor": {
               "target": "Package",
@@ -74,36 +80,34 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "NETStandard.Library.Ref",
-              "version": "[2.1.0, 2.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj": {
+    "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj",
         "projectName": "BlazorWithMongo.Shared",
-        "projectPath": "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj",
-        "packagesPath": "C:\\Users\\ankit\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\BlazorUpdates\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\BlazorWithMongo.Shared.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\source\\repos\\Blazor-CRUD-With-MongoDB\\BlazorWithMongo\\BlazorWithMongo\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ankit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -114,6 +118,7 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -125,6 +130,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -149,18 +155,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "NETStandard.Library.Ref",
-              "version": "[2.1.0, 2.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

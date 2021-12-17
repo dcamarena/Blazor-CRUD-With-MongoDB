@@ -6,3 +6,12 @@ E:\Projects\BlazorUpdates\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMon
 E:\Projects\BlazorUpdates\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\bin\Debug\netstandard2.1\BlazorWithMongo.Shared.pdb
 E:\Projects\BlazorUpdates\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\obj\Debug\netstandard2.1\BlazorWithMongo.Shared.dll
 E:\Projects\BlazorUpdates\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\obj\Debug\netstandard2.1\BlazorWithMongo.Shared.pdb
+C:\Users\danie\source\repos\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\bin\Debug\netstandard2.1\BlazorWithMongo.Shared.deps.json
+C:\Users\danie\source\repos\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\bin\Debug\netstandard2.1\BlazorWithMongo.Shared.dll
+C:\Users\danie\source\repos\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\bin\Debug\netstandard2.1\BlazorWithMongo.Shared.pdb
+C:\Users\danie\source\repos\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\obj\Debug\netstandard2.1\BlazorWithMongo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\obj\Debug\netstandard2.1\BlazorWithMongo.Shared.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\obj\Debug\netstandard2.1\BlazorWithMongo.Shared.AssemblyInfo.cs
+C:\Users\danie\source\repos\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\obj\Debug\netstandard2.1\BlazorWithMongo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\obj\Debug\netstandard2.1\BlazorWithMongo.Shared.dll
+C:\Users\danie\source\repos\Blazor-CRUD-With-MongoDB\BlazorWithMongo\BlazorWithMongo\Shared\obj\Debug\netstandard2.1\BlazorWithMongo.Shared.pdb

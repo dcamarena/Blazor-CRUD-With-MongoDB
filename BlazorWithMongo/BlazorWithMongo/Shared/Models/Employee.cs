@@ -4,11 +4,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BlazorWithMongo.Shared.Models
 {
-    public class Employee
+    public class Employee : MongoDocument
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]

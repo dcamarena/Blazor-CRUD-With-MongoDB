@@ -13,10 +13,10 @@ namespace BlazorWithMongo.Client.Pages
         [Inject]
         public NavigationManager UrlNavigationManager { get; set; }
         [Parameter]
-        public string empID { get; set; }
+        public string EmpID { get; set; }
         protected string Title = "Add";
         public Employee emp = new Employee();
-        protected List<Cities> cityList = new List<Cities>();
+        protected List<City> cityList = new List<City>();
 
         protected override async Task OnInitializedAsync()
         {
@@ -25,16 +25,16 @@ namespace BlazorWithMongo.Client.Pages
 
         protected override async Task OnParametersSetAsync()
         {
-            if (!string.IsNullOrEmpty(empID))
+            if (!string.IsNullOrEmpty(EmpID))
             {
                 Title = "Edit";
-                emp = await Http.GetJsonAsync<Employee>("/api/Employee/" + empID);
+                emp = await Http.GetJsonAsync<Employee>("/api/Employee/" + EmpID);
             }
         }
 
         protected async Task GetCityList()
         {
-            cityList = await Http.GetJsonAsync<List<Cities>>("api/Employee/GetCities");
+            cityList = await Http.GetJsonAsync<List<City>>("api/Employee/GetCities");
         }
         protected async Task SaveEmployee()
         {

@@ -8,9 +8,9 @@ namespace BlazorWithMongo.Server.DataAccess
 {
     public class EmployeeDataAccessLayer : IEmployee
     {
-        private EmployeeDBContext db;
+        private readonly RestaurantDBContext db;
 
-        public EmployeeDataAccessLayer(EmployeeDBContext _db)
+        public EmployeeDataAccessLayer(RestaurantDBContext _db)
         {
             db = _db;
         }
@@ -84,7 +84,7 @@ namespace BlazorWithMongo.Server.DataAccess
             }
         }
         // To get the list of Cities  
-        public List<Cities> GetCityData()
+        public List<City> GetCityData()
         {
             try
             {
