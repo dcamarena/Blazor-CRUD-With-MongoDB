@@ -29,6 +29,8 @@ namespace BlazorWithMongo.Server
                 opts.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(
                     new[] { "application/octet-stream" });
             });
+
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,6 +42,8 @@ namespace BlazorWithMongo.Server
             {
                 app.UseDeveloperExceptionPage();
                 app.UseBlazorDebugging();
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
 
             app.UseStaticFiles();
